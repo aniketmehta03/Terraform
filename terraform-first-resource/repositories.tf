@@ -7,5 +7,5 @@ resource "github_repository" "my-first-terraform" {
 }
 
 output terraform-first-repo-url {
-  value = github_repository.my-first-terraform.html.url
+  value = github_repository.my-first-terraform.html_url
 }
