@@ -1,0 +1,38 @@
+# Local .terraform directories
+**/.terraform/*
+.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Exclude .tfvars files (if they have secrets like passwords, keys)
+*.tfvars
+*.tfvars.json
+
+# Exclude override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan output files
+*.tfplan
+
+# .terraform.lock.hcl file (optional: usually kept, but skip if you want)
+.terraform.lock.hcl
+
+# IDE specific (optional but recommended)
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
