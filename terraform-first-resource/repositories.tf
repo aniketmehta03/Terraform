@@ -5,3 +5,7 @@ resource "github_repository" "my-first-terraform" {
   visibility   = "public"
   auto_init = true
 }
+
+output terraform-first-repo-url {
+  value = github_repository.my-first-terraform.html.url
+}
